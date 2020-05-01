@@ -1,0 +1,104 @@
+/* Navbar */
+.text-align-right {
+    text-align: right;
+    margin: auto 0;
+}
+
+.padding-col {
+    padding: 0.5rem 0rem;
+}
+
+.title-padding {
+    padding: 0 15px;
+}
+
+.padding-nav {
+    padding: 0.5rem 2rem;
+}
+
+.padding-login {
+    padding: 0.5rem 2rem 0.5rem 15px;
+}
+
+.title-font {
+    color: #f2a365;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.login-signup-font {
+    font-weight: 300;
+    font-size: 1rem;
+    color: #414a4c;
+}
+
+.signup {
+    border: 1px solid #414a4c;
+    border-radius: 2px;
+    text-align: center;
+}
+
+/* Content */
+.body-container {
+    padding: 5rem 0;
+}
+
+.body-container-for {
+    padding: 4rem 0 0 0;
+}
+
+.body-for {
+    font-family: "Fira Sans", sans-serif;
+    font-size: 28px;
+    color: #ff8c00;
+    font-weight: 800;
+}
+
+.info {
+    font-family: "Open Sans", sans-serif;
+    color: #414a4c;
+    font-weight: 300;
+}
+
+.padding-body {
+    padding-bottom: 2rem;
+}
+
+.first-list {
+    font-family: "Lato", sans-serif;
+    font-size: 2.5rem;
+    width: 500px;
+    line-height: 1.05em;
+    color: #00ced1;
+}
+
+/* tag */
+body {
+    margin: 5% 10%;
+    font-family: "Open Sans", sans-serif;
+    background-color: #f5f1ed;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+button {
+    width: 200px;
+}
+
+/* Media */
+@media only screen and (max-width: 768px) {
+    body {
+        margin: 10% 5%;
+    }
+    .text-align-right {
+        text-align: left;
+    }
+}
+
+@media only screen and (max-width: 960px) {
+    img {
+        display: none;
+    }
+}
